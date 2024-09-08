@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Banking System</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h1>Banking Dashboard</h1>
+    <hr>
+    <form id="balanceForm">
+        <label>Current Balance : $<span id="balance">1000</span></label>
+    </form>
+    <hr>
+    <form id="transactionForm">
+        <label for="depositInput">Deposit Amount : 
+            <input type="number" id="depositInput" step="0.01" min="0">
+        </label>
+        <button type="button" id="depositBtn">Deposit</button>
+        <br><br>
+        <label for="withdrawalInput">Withdrawal Amount : 
+            <input type="number" id="withdrawalInput" step="0.01" min="0">
+        </label>
+        <button type="button" id="withdrawalBtn">Withdraw</button>
+    </form>
+    <hr>
+    
+    <footer>    
+        <p><strong>Bank Details</strong></p>
+        <p>123 Banking St, Finance City, FA 45678</p>
+        <p>Phone: (123) 456-7890</p>
+        <p>Email: <a href="mailto:info@bankname.com">info@bankname.com</a></p>
+        <p>
+            Follow us:
+            <a href="https://www.facebook.com/bankname" target="_blank">Facebook</a> |
+            <a href="https://twitter.com/bankname" target="_blank">Twitter</a> |
+            <a href="https://www.linkedin.com/company/bankname" target="_blank">LinkedIn</a>
+        </p>
+        <h2>This is create by chanchal<h2>
+    </footer>
+    <script src="index.js"></script>
+</body>
+</html>
